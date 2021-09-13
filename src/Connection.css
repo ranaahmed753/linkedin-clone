@@ -1,0 +1,60 @@
+.connection {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+  width: 150px;
+  height: 250px;
+  background-color: white;
+  align-items: center;
+  margin: 10px;
+}
+
+.connection:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.connection > h1:hover {
+  border-bottom: 1px solid gray;
+}
+
+.connection > img {
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  height: 50px;
+}
+
+.connection > .connection__avatar {
+  font-size: xx-large;
+  margin-top: -30px;
+}
+
+.connection > h2 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.connection > h1 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.connection > button {
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid #2476c8;
+  padding: 6px;
+  width: 130px;
+  outline-width: 0;
+  cursor: pointer;
+  margin-top: 85px;
+  text-decoration: #2476c8;
+}
+
+.connection > button:hover {
+  background-color: #e7e7e7;
+  border: 2px solid #2476c8;
+}

@@ -1,0 +1,28 @@
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  margin-right: 23px;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+}
+
+.headerOption:hover {
+  color: black;
+}
+
+.headerOption > h3 {
+  font-weight: 300;
+  font-style: inherit;
+  font-size: 12px;
+}
+
+.headerOption > .headerOption__icon {
+  font-size: 27px;
+}
+
+.headerOption > .headerOption__avatar {
+  height: 27px;
+  width: 27px;
+  object-fit: contain;
+}

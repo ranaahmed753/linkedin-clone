@@ -1,0 +1,10 @@
+.jobsTop__option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.jobsTop__option > h1 {
+  border-right: 1px solid lightgray;
+  padding: 10px;
+}

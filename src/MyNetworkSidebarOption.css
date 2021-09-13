@@ -1,0 +1,20 @@
+.myNetworkSidebar__option {
+  display: flex;
+  padding: 10px;
+}
+
+.myNetworkSidebar__option:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.myNetworkSidebar__option > h2 {
+  margin-left: 15px;
+  font-size: 13px;
+  font-weight: 200;
+  color: gray;
+}
+
+.myNetworkSidebar__icon {
+  color: gray;
+}

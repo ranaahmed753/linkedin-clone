@@ -1,0 +1,169 @@
+.jobs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.jobs__top {
+  flex: 1;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+}
+
+.jobsTopRight__option {
+  display: flex;
+  align-items: center;
+}
+
+.jobs__top > button {
+  border-radius: 50px;
+  background-color: white;
+  border: 1px solid #2476c8;
+  padding: 6px;
+  width: 130px;
+  outline-width: 0;
+  cursor: pointer;
+  text-decoration: #2476c8;
+  margin-left: 120px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.jobs__top > button:hover {
+  background-color: #e7e7e7;
+  border: 2px solid #2476c8;
+}
+
+.jobs__middle {
+  flex: 1;
+  border: 1px solid lightgray;
+  background-color: #dce6f1;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.jobs__middle > .jobsMiddle__option {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+.jobs__middle > .jobsMiddle__option > input {
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 3px;
+  padding: 10px;
+  flex: 1;
+  margin: 15px;
+}
+
+.jobs__middle > .jobsMiddle__option > button {
+  border-radius: 20px;
+  background-color: rgb(0, 130, 211);
+  outline-width: 0;
+  cursor: pointer;
+  align-self: center;
+  outline-color: none;
+  border: none;
+  padding: 10px;
+  margin: 15px;
+  text-decoration-color: white;
+  color: white;
+  width: 100px;
+}
+
+.jobs__middle > .jobsMiddle__option > button:hover {
+  background-color: #006097;
+  padding: 10px;
+  margin: 15px;
+  width: 100px;
+}
+
+.jobs__bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.jobs__bottom > .jobsBottom__top {
+  flex: 1;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.jobs__bottom > .jobsBottom__top > .jobsBottomTop__option {
+  display: flex;
+}
+
+.jobs__bottom > .jobsBottom__middle {
+  flex: 1;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.jobs__bottom > .jobsBottom__middle > .moreHoriz:hover {
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+
+.jobs__bottom > .jobsBottom__middle > .jobsBottomMiddle__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.jobs__bottom > .jobsBottom__middle > .jobsBottomMiddle__option > button {
+  border-radius: 50px;
+  background-color: whitesmoke;
+  border: 1px solid #2476c8;
+  padding: 6px;
+  flex: 1;
+  width: 180px;
+  margin-top: 10px;
+  outline-width: 0;
+  cursor: pointer;
+  text-decoration: #2476c8;
+  text-decoration: #2476c8;
+}
+
+.jobs__bottom > .jobsBottom__middle > .jobsBottomMiddle__option > button:hover {
+  background-color: rgb(197, 215, 236);
+  border-width: 2px;
+}
+
+.jobs__bottom > .jobsBottom__last {
+  flex: 1;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.jobs__bottom > .jobsBottom__last > .jobsBottomLast__option {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 15px;
+}
+
+.jobsBottom__last > .jobsBottomLastOption__h1:hover {
+  background-color: #8bafd3;
+  padding: 5px;
+  border-radius: 3px;
+}

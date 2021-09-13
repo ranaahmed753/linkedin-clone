@@ -1,0 +1,11 @@
+.jobsBottomTopOption {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
